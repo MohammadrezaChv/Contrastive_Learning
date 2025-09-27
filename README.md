@@ -1,6 +1,5 @@
-Sure! Here’s the full README in a **ready-to-copy Markdown format** for your GitHub repository:
 
-```markdown
+
 # Contrastive Learning with Vision Transformers and CLIP
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
@@ -13,9 +12,10 @@ This repository demonstrates **contrastive learning** for visual-text representa
 
 The repository contains three main modules:
 
-1. **ViT** – Implementation and fine-tuning of Vision Transformer models for image representation.  
-2. **CLIP** – Zero-shot image-text modeling using OpenAI's CLIP, along with preprocessing and embedding extraction.  
-3. **Interacting with CLIP** – Utilities for text-to-image retrieval, similarity computation, and visualization.  
+1. **ViT** – Implementation and fine-tuning of Vision Transformer models for image representation.
+2. **CLIP** – Zero-shot image-text modeling using OpenAI's CLIP, along with preprocessing and embedding extraction.
+3. **Interacting with CLIP** – Utilities for text-to-image retrieval, similarity computation, and visualization.
+
    > **Note:** This module is adapted from [OpenAI’s CLIP GitHub repository](https://github.com/openai/CLIP).
 
 ---
@@ -23,34 +23,37 @@ The repository contains three main modules:
 ## Repository Structure
 
 ```
-
-Contrastive_Learning/
+Contrastive-Learning/
 │
 ├── ViT.ipynb                   # Vision Transformer model and fine-tuning examples
 ├── CLIP.ipynb                  # Using CLIP for encoding and zero-shot classification
-├── Interacting\_with\_CLIP.ipynb # Image-text retrieval, similarity scoring, and visualization (adapted from OpenAI)
+├── Interacting_with_CLIP.ipynb # Image-text retrieval, similarity scoring, and visualization (adapted from OpenAI)
 ├── README.md                   # Project documentation
 
-````
+```
 
 ---
 
 ## Features
 
-- **Vision Transformer (ViT)**
-  - Load pre-trained ViT models (`ViT-B/32`) for image classification.
-  - Fine-tune the last transformer blocks using contrastive loss.
-  - Freeze and unfreeze layers selectively for efficient training.
+* **Vision Transformer (ViT)**
 
-- **CLIP**
-  - Encode images and text into a shared embedding space.
-  - Perform **zero-shot classification** using text prompts.
-  - Compute cosine similarity between images and text for retrieval tasks.
+  * Load pre-trained ViT models (`ViT-B/32`) for image classification.
+  * Fine-tune the last transformer blocks using contrastive loss.
+  * Freeze and unfreeze layers selectively for efficient training.
 
-- **Interacting with CLIP**
-  - Text-to-image search with real or simulated datasets.
-  - Visualization of images along with predicted labels.
-  - Utilities for working in Google Colab or local environments.  
+* **CLIP**
+
+  * Encode images and text into a shared embedding space.
+  * Perform **zero-shot classification** using text prompts.
+  * Compute cosine similarity between images and text for retrieval tasks.
+
+* **Interacting with CLIP**
+
+  * Text-to-image search with real or simulated datasets.
+  * Visualization of images along with predicted labels.
+  * Utilities for working in Google Colab or local environments.
+
   > Adapted from [OpenAI CLIP GitHub](https://github.com/openai/CLIP).
 
 ---
@@ -62,7 +65,7 @@ Contrastive_Learning/
 ```bash
 git clone https://github.com/yourusername/contrastive-learning.git
 cd contrastive-learning
-````
+```
 
 2. Create and activate a Python environment (optional but recommended):
 
@@ -168,11 +171,6 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 * [scikit-image](https://scikit-image.org/)
 * [OpenAI CLIP GitHub](https://github.com/openai/CLIP)
 
-```
-
 ---
 
-This Markdown is **ready to copy into your repository’s README.md**.  
-
-Do you want me to also create a **Colab-ready section** for running all three notebooks directly?
-```
+This version clearly credits OpenAI for the **Interacting with CLIP** module while keeping the README professional and comprehensive.
