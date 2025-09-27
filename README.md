@@ -171,6 +171,3 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 * [scikit-image](https://scikit-image.org/)
 * [OpenAI CLIP GitHub](https://github.com/openai/CLIP)
 
----
-
-This version clearly credits OpenAI for the **Interacting with CLIP** module while keeping the README professional and comprehensive.
